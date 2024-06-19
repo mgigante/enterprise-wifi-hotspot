@@ -1,0 +1,6 @@
+# Phase 1 identities.
+# Wildcard for all identities use PEAP.
+* PEAP
+
+# Phase 2 users (tunnelled within EAP-PEAP).
+"zero" MSCHAPV2 "1234567" [2]
